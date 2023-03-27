@@ -35256,7 +35256,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var courses = [{
   id: "cs",
-  img_url: "http://localhost:1234/img/Devices-pana.svg",
+  img_url: "https://nilinswap.github.io/img/Devices-pana.svg",
   title: "Computer Science",
   description: "Welcome to our tech-focused learning program for students in class 6-9. Our comprehensive curriculum is designed to provide a hands-on learning experience and equip students with valuable skills in computer science, programming, web development, and more. From learning about the impact of technology on our world, to creating interactive games and websites, our program offers a variety of modules to engage and challenge students. Through collaborative projects and individual assignments, students will gain confidence and proficiency in tech skills that are highly sought after in today's digital age. Join us on this exciting journey and let's explore the endless possibilities of technology together!",
   brief: "Join us on a journey of discovery and creativity, as we explore the world of technology and programming in an engaging and collaborative environment.",
@@ -35264,8 +35264,8 @@ var courses = [{
     standard: "6",
     title: "Introduction to Computer Science and Scratch Programming",
     description: "This curriculum is designed to introduce students to the world of computer science and programming using the Scratch programming language. Through a series of modules, students will learn about the different types of technology, the basics of programming using Scratch, computer systems and networks, the internet, systems security, and game development. The modules are designed to help students develop problem-solving skills, logical thinking, and creativity while building a foundation for future studies in computer science. By the end of the curriculum, students will be able to create simple programs and games using Scratch and understand the basics of computer systems and networks, the internet, and systems security.",
-    learning_objectives: ["Develop an understanding of the basics of computer science and programming.", "Learn how to use Scratch programming language to create simple programs, animations, and games.", "Understand how computers communicate with each other and the internet, and implement basic security measures to keep computer and data safe."],
-    learning_outcomes: ["Students will be able to undertand the technology around them in depth.", "Students will be able to make cool gamees in scratch.", "Students will be able to understand how internet, security systems and so on work."],
+    learning_objectives: ["Develop an understanding of the basics of computer science, internet and programming.", "Use programming tools to learn concepts in science and maths in a deeper and more engaging way by creating simulations.", "Learn how to use Scratch programming language to create simple programs, animations, and games."],
+    learning_outcomes: ["Students will be able to undertand the technology around them in depth. They will be more curious to tinker.", "Students will be able to create simple animated simulations that matches their curriculum like a switch needs closed to light the bulb, simulate a race of two cars etc.", "Students will be able to make cool games in scratch like whac-a-mole, tetris etc.", "Stuendts will be to solve real problems like how to make a robot that can move in a square, how to make a robot that can move in a circle etc."],
     modules: [{
       id: "identTech6",
       title: "Tech Around Us",
@@ -35291,9 +35291,13 @@ var courses = [{
       title: "Scratch - loops",
       description: "Learn how to use loops in scratch to make your characters move and interact with each other."
     }, {
-      id: "syssec6",
-      title: "Systems Security",
-      description: "Learn how to keep your computer and data safe from hackers and viruses."
+      id: "simscr61",
+      title: "Simulations in scratch - Part 1",
+      description: "Use scratch to develop simulations like a magnet attracts pellets, a race of two cars etc."
+    }, {
+      id: "simscr62",
+      title: "Simulations in scratch - Part 2",
+      description: "Use scratch to develop simulations like a switch needs closed to light the bulb, flow of current etc."
     }, {
       id: "scratchGame61",
       title: "Game Development with Scratch 1",
@@ -35307,8 +35311,8 @@ var courses = [{
     standard: "7",
     title: "Computing Fundamentals and Python Programming",
     description: "This course introduces students to the basics of technology and programming, and provides hands-on experience with programming tools such as Scratch and Python.",
-    learning_objectives: ["Understand the concept of technology and its role in society.", "Develop basic programming skills using Scratch and Python.", "Understand the fundamentals of computer networks and the internet.", "Learn how to design and create simple games and programs."],
-    learning_outcomes: ["Students will be able to understand the technology around them and the role it plays in society.", "Students will be able to solve real-world problems using scratch and python.", "Students will be able to understand internet deeply and would be able to notice nuances as they continue to use it.", "Students will learn the life-cycle of building simple programs."],
+    learning_objectives: ["Understand the concept of technology and its role in society. Understand the fundamentals of computer networks and the internet.", "Develop basic programming skills using Python.", "Use programming tools to learn concepts in science and maths in a deeper and more engaging way by creating simulations.", "Learn how to use Scratch programming language to create simple programs, animations, and games."],
+    learning_outcomes: ["Students will be able to understand the technology around them and the role it plays in society. Understand fundamentals of computer, internet and networks.", "Students will be able to create games like zombie shooter, pong etc", "Students will be able to write simple programs in python that matches their curriculum like find distance covered by a train at speed 5km/hr in 1 hour etc.", "Students will be able to create simulations like bouncing ball, beam through a prism etc"],
     modules: [{
       id: "identTech7",
       title: "Tech Around Us",
@@ -35338,13 +35342,21 @@ var courses = [{
       title: "Simple Game in Scratch Part 2",
       description: "Dive deeper into making your game better with variables, lists, and functions"
     }, {
+      id: "simscr71",
+      title: "Simulations in scratch - Part 1",
+      description: "Use scratch to develop simulations like a race of two cars, prism splitting white beam etc."
+    }, {
+      id: "simscr72",
+      title: "Simulations in scratch - Part 2",
+      description: "Use scratch to develop simulations like chiral inversion using mirror, how rotating color disc fast enough turns it to white etc."
+    }, {
       id: "python71",
       title: "Introduction in Python - Part 1",
       description: "Learn how to use python to make your computer do things for you. Learn how to use variables, loops, and functions"
     }, {
       id: "python72",
       title: "Introduction in Python - Part 2",
-      description: "Learn how to use branches and loops in python. Solve a real-world problem using python"
+      description: "Learn how to use branches and loops in python. Solve a real-world problem using python like converting dollar to rupee, etc"
     }, {
       id: "code71",
       title: "Code along - Part 1",
@@ -35358,8 +35370,8 @@ var courses = [{
     standard: "8",
     description: "This course will introduce students to the fundamentals of computer science and programming, including programming languages like Scratch and Python, computer networks, algorithms, and problem-solving techniques.",
     title: "Mastering Technology and Programming Fundamentals ",
-    learning_objectives: ["To introduce students to the fundamentals of computer science, programming languages, and their applications.", "To develop students' problem-solving skills through programming and algorithmic thinking.", "To provide students with a foundational understanding of computer networks and their importance.", "To help students develop their critical thinking and analytical skills by applying problem- solving techniques to real - world scenarios."],
-    learning_outcomes: ["Students will be able to understand the basics of computer science and how it impacts our daily lives.", "Students will be able to apply problem - solving techniques to real - world scenarios using programming languages like Scratch and Python.", "Students will be able to understand the basic structure of computer networks and the internet.", "Students will be able to write basic algorithms and apply them to solve problems."],
+    learning_objectives: ["To introduce students to the fundamentals of computer science, programming languages, and their applications.", "To develop students' problem-solving skills through programming and algorithmic thinking.", "Use programming tools to learn concepts in science and maths in a deeper and more engaging way by creating simulations.", "To help students develop their critical thinking and analytical skills by applying problem- solving techniques to real - world scenarios."],
+    learning_outcomes: ["Students will be able to understand the basics of computer science and how it impacts our daily lives.", "Students will be able to use scratch to develop games like pacman, flappy-birds, zombie-shooter etc", "Students will be able to create simulations like reflection of light in a mirror, bouncing ball with gravity etc", "Students will be able to use python to solve real-world problems like roots of a number, factorisation, basic calculator, encrypt a file etc", "Students will be able to write basic algorithms and apply them to solve problems like farhenheit to celsius converter, resource allocation problems that OSes face, finding median of scores in a class etc"],
     modules: [{
       id: "identTech8",
       title: "Introduction to Tech",
@@ -35379,7 +35391,11 @@ var courses = [{
     }, {
       id: "game81",
       title: "Simple Game in Scratch ",
-      description: "Learn how to make a simple game in scratch."
+      description: "Learn how to make a simple game in scratch like shooter games."
+    }, {
+      id: "sim81",
+      title: "Simple Simulations in Scratch - Part 1 ",
+      description: "Learn how to make simulations like reflection of light, falling of objects etc."
     }, {
       id: "python81",
       title: "Introduction in Python - Part 1",
@@ -35387,7 +35403,7 @@ var courses = [{
     }, {
       id: "python82",
       title: "Solving with Python",
-      description: "Learn how to use branches and loops in python. Solve a real-world problem using python"
+      description: "Learn how to use branches and loops in python. Solve a real-world problem using python like factorisation of a number, finding cube root etc"
     }, {
       id: "algo8",
       title: "Introduction to Algorithms",
@@ -35410,7 +35426,7 @@ var courses = [{
     "title": "Exploring and Creating with Technology",
     "description": "In this module, students will dive into the world of technology and learn about its various impacts on our lives. From hardware to software, web development to algorithms, they will gain hands-on experience in creating and solving problems using technology.",
     learning_objectives: ["To introduce students to the world of technology and its impact on society.", "To develop students' problem-solving and logical thinking skills using programming languages like Python and Scratch.", "To teach students the basics of web development and how to create interactive websites using HTML, CSS, and JavaScript.", "To encourage collaboration and teamwork among students while building a project in their chosen elective track."],
-    learning_outcomes: ["Students will be able to identify and understand the impact of various technologies in our daily lives.", "Students will be able to write basic programs using Python and Scratch, using loops, branches, and events.", "Students will be able to design and develop basic websites using HTML, CSS, and JavaScript.", "Students will be able to collaborate with peers and build a project in one of the elective tracks(App Dev, Backend, AI, Hacking)."],
+    learning_outcomes: ["Students will be able to identify and understand the impact of various technologies in our daily lives.", "Students will be able to solve real - world problems using Python like a calculator with added functionalities like HCF, GCD, Factors etc, an alarm clock that uses youtube videos to wake up etc.", "Students will be able to create programmatic simulations like race of two cars with accelartaion, free fall etc", "Students will be able to design and develop interactive websites using HTML, CSS, and JavaScript.", "Students will be building their portfolio website, which will be a showcase of their work and skills.", "Students will be able to collaborate with peers and build a projects", "Students will be able to build non-trivial projects like a mask detector which tells if someone is wearing a mask, an app with snake game etc"],
     modules: [{
       id: "impactTech9",
       title: "Impact of Tech",
@@ -35419,6 +35435,10 @@ var courses = [{
       id: "patInProgramming9",
       title: "Patterns in Programming and Introduction to Scratch",
       description: "Learn how to use loops, branches and events in scratch to make your characters move and interact with each other."
+    }, {
+      id: "simscr92",
+      title: "Games and Simulations in scratch",
+      description: "Use scratch to develop simulations like gravity and use it to create games like flappy-birds which uses that concept of gravity."
     }, {
       id: "python91",
       title: "Introduction in Python - Part 1",
@@ -35448,8 +35468,8 @@ var courses = [{
     standard: "10",
     title: "Ultimate Technology Mastery",
     description: "Gain a deep understanding of technology and how it shapes the world around us. Learn to code in Python, create interactive websites, and explore various electives to build real-world projects.",
-    learning_objectives: ["Gain an understanding of how technology impacts our lives and the world around us.", "Develop proficiency in Python programming to solve problems and automate tasks.", "Learn to build interactive websites and web applications using front - end technologies such as HTML, CSS, and JavaScript.", "Choose an elective track in App Development, Backend, AI, or Hacking to collaborate with peers and build a real- world project."],
-    learning_outcomes: ["Students will be able to identify and differentiate between various types of technologies, including computers and the internet.", "Students will be able to use loops, branches, and events in Scratch to create interactive characters and scenes.", "Students will be able to write basic code in Python using variables, loops, and functions to solve real - world problems.", "Students will be able to design and develop interactive websites using HTML, CSS, and JavaScript."],
+    learning_objectives: ["To introduce students to the world of technology and its impact on society.", "To develop students' problem-solving and logical thinking skills using programming languages like Python and Scratch.", "To teach students the basics of web development and how to create interactive websites using HTML, CSS, and JavaScript.", "To encourage collaboration and teamwork among students while building a project in their chosen elective track."],
+    learning_outcomes: ["Students will be able to identify and understand the impact of various technologies in our daily lives.", "Students will be able to solve real - world problems using Python like a calculator with added functionalities like HCF, GCD, Factors etc, an alarm clock that uses youtube videos to wake up etc.", "Students will be able to design and develop interactive websites using HTML, CSS, and JavaScript. It will have features like animations, interactive elements, and a responsive design.", "Students will be building their portfolio website, which will be a showcase of their work and skills.", "Students will be able to collaborate with peers and build a projects", "Students will be able to build non-trivial projects like a mask detector which tells if someone is wearing a mask, a smart chatbot etc"],
     modules: [{
       id: "impactTech10",
       title: "Impact of Tech",
@@ -35486,7 +35506,7 @@ var courses = [{
   }]
 }, {
   id: "ec",
-  img_url: "http://localhost:1234/img/Drone-amico.svg",
+  img_url: "https://nilinswap.github.io/img/Drone-amico.svg",
   title: "Electronics",
   brief: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat suntiure error modi adipisci iusto corporis molestiae ipsa maiores omnis laboriosam ab cupiditate ut in, dolorem nesciunt voluptate facili aperiam!",
@@ -56009,7 +56029,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57781" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63043" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
