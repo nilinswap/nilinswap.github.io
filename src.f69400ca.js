@@ -35257,7 +35257,7 @@ exports.default = void 0;
 var courses = [{
   id: "cs",
   img_url: "https://nilinswap.github.io/img/Devices-pana.svg",
-  title: "Computer Science",
+  title: "COMPUTER SCIENCE",
   description: "Welcome to our tech-focused learning program for students in class 6-9. Our comprehensive curriculum is designed to provide a hands-on learning experience and equip students with valuable skills in computer science, programming, web development, and more. From learning about the impact of technology on our world, to creating interactive games and websites, our program offers a variety of modules to engage and challenge students. Through collaborative projects and individual assignments, students will gain confidence and proficiency in tech skills that are highly sought after in today's digital age. Join us on this exciting journey and let's explore the endless possibilities of technology together!",
   brief: "Join us on a journey of discovery and creativity, as we explore the world of technology and programming in an engaging and collaborative environment.",
   syllabus_info: [{
@@ -35265,7 +35265,7 @@ var courses = [{
     title: "Introduction to Computer Science and Scratch Programming",
     description: "This curriculum is designed to introduce students to the world of computer science and programming using the Scratch programming language. Through a series of modules, students will learn about the different types of technology, the basics of programming using Scratch, computer systems and networks, the internet, systems security, and game development. The modules are designed to help students develop problem-solving skills, logical thinking, and creativity while building a foundation for future studies in computer science. By the end of the curriculum, students will be able to create simple programs and games using Scratch and understand the basics of computer systems and networks, the internet, and systems security.",
     learning_objectives: ["Develop an understanding of the basics of computer science, internet and programming.", "Use programming tools to learn concepts in science and maths in a deeper and more engaging way by creating simulations.", "Learn how to use Scratch programming language to create simple programs, animations, and games."],
-    learning_outcomes: ["Students will be able to undertand the technology around them in depth. They will be more curious to tinker.", "Students will be able to create simple animated simulations that matches their curriculum like a switch needs closed to light the bulb, simulate a race of two cars etc.", "Students will be able to make cool games in scratch like whac-a-mole, tetris etc.", "Stuendts will be to solve real problems like how to make a robot that can move in a square, how to make a robot that can move in a circle etc."],
+    learning_outcomes: ["Students will be able to undertand the technology around them in depth. They will be more curious to tinker.", "Students will be able to create simple animated simulations that matches their curriculum like a switch needs closed to light the bulb, simulate a race of two cars etc.", "Students will be able to make cool games in scratch like whac-a-mole, tetris etc.", "Students will be to solve real problems like how to make a robot that can move in a square, how to make a robot that can move in a circle etc."],
     modules: [{
       id: "identTech6",
       title: "Tech Around Us",
@@ -35507,34 +35507,167 @@ var courses = [{
 }, {
   id: "ec",
   img_url: "https://nilinswap.github.io/img/Drone-amico.svg",
-  title: "Electronics",
-  brief: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat suntiure error modi adipisci iusto corporis molestiae ipsa maiores omnis laboriosam ab cupiditate ut in, dolorem nesciunt voluptate facili aperiam!",
+  title: "PHYSICAL COMPUTING 101",
+  brief: "Empower your future with electrifying knowledge in our progressive tech courses, from Arduino to Raspberry Pi and beyond!",
+  description: "This specialization is designed to provide a comprehensive foundation in the field of electrical engineering and robotics. Starting with basic electrical concepts in Grade 6, students progress to learning about robotics using Arduino in Grade 7, followed by an introduction to the Internet of Things (IoT) in Grade 8. In Grade 9, students learn about physical computing using Raspberry Pi, and in Grade 10 they design and build their own drones. By the end of the specialization, students will have a strong understanding of electronics, programming, and robotics, and will be well-equipped to pursue further studies in this field.",
   syllabus_info: [{
     standard: "6",
-    learning_objectives: ["Lorem ipsum dolor sit amet consectetur adipisicing elit.", "amet consectetur adipisicing elit. Lorem ipsum dolor sit ", "adipisicing elit. Lorem ipsum dolor sit amet consectetur ", "dolor sit amet consectetur adipisicing elit."],
-    learning_outcomes: ["adipisicing elit. Lorem ipsum dolor ", "Lorem ipsum dolor sit amet consectetur adipisicing elit.", "dolor sit amet consectetur adipisicing elit.", "amet consectetur adipisicing elit."],
+    title: "Electricals and Electronics Foundation",
+    description: "Electronics gives us an opportunity not only to understand the world around us, but to also interact with it, and to create whole new realities of our own. This is an introductory course which about the different types of electronic devices that are being used in our day- to - day life. For this there is no need of any previous knowledge just if you know a little bit of physics is more than enough. ",
+    learning_objectives: ["Understand the basic concepts of conductors and insulators, current, voltage, and resistance in electronics.", "Learn how to design basic electronics circuits using LEDs, switches, IC555, capacitors and resistors on a breadboard.", "Understand the relationship between signals and systems and the need for microcontrollers in modern electronics."],
+    learning_outcomes: ["Students will be able to design and build basic electronics circuits using LEDs, switches, and resistors on a breadboard.", "Students will be able to measure current, voltage, and resistance in a circuit using a multimeter.", "Students will be able to design and build circuits using IC555 and capacitors and visualize them on an oscilloscope.", "Students will be able to use simulators like Falstad to visualize and simulate circuits online."],
     modules: [{
       id: "identTech6",
-      title: "Identifying Technology",
-      description: "Fugiat suntiure error modi adipisci iusto corporis molestiae ipsa maiores omnis laboriosam ab cupiditate ut in, dolorem nesciunt voluptate"
+      title: "Electricity 101",
+      description: "From Conductors to Insulators, A Beginner's Guide"
     }, {
       id: "introScratch6",
-      title: "Introduction To Scratch",
-      description: "Adipisci iusto corporis molestiae ipsa maiores omnis laboriosam ab cupiditate ut in, dolorem nesciunt voluptate"
+      title: "Lighting the Way",
+      description: "A Guide to Designing Circuits with LEDs, Switches, and Resistors"
+    }, {
+      id: "csn6",
+      title: "Time Flies",
+      description: "A Guide to Designing Circuits with IC555 and Capacitors and Visualizing Them on an Oscilloscope"
+    }, {
+      id: "scratchEvents6",
+      title: "The Virtual World of Electronics",
+      description: "A Guide to Visualizing Circuits on Falstad"
+    }, {
+      id: "internet6",
+      title: "From Analog to Digital",
+      description: "A Beginner's Guide to Signals and Systems in Electronics"
     }]
   }, {
     standard: "7",
-    learning_objectives: ["ipsum dolor sit amet consectetur Lorem  adipisicing elit.", "consectetur adipisicing elit. amet Lorem ipsum dolor sit ", "adipisicing elit. Lorem ipsum dolor sit amet consectetur ", "sit amet consectetur adipisicing elit. dolor"],
-    learning_outcomes: ["elit. Lorem ipsum dolor adipisicing", "ipsum dolor sit amet consectetur adipisicing elit Lorem.", "sit consectetur adipisicing elit. dolor", "amet amet consectetur adipisicing elit."],
+    title: "Robotics using Arduino",
+    description: "In this module, learners use an Arduino microcontroller to design, create, and program a motorised buggy. This module is divided into six individual lessons where learners connect and program different components to increase the features of their buggy. ",
+    learning_objectives: ["Understand the basics of controllers and their role in automation and robotics.", "Identify the various components of an Arduino board and understand their functions", "Understand how to connect and control motors using motor driver circuits.", "Gain a basic understanding of different types of sensors and their applications in robotics."],
+    learning_outcomes: ["Students will be able to write and upload basic programs to the Arduino using Arduino IDE.", "Students will be able to interface with IR and ultrasonic sensors using Arduino", "Students will be able to design a basic chassis for a robot using their knowledge of Arduino, motors, and sensors"],
     modules: [{
       id: "identTech6",
-      title: "Identifying Technology",
-      description: "Fugiat suntiure error modi adipisci iusto corporis molestiae ipsa maiores omnis laboriosam ab cupiditate ut in, dolorem nesciunt voluptate"
+      title: "Introduction to Controllers",
+      description: "Taking Control: A Beginner's Guide to Robotics Controllers"
     }, {
       id: "introScratch6",
-      title: "Introduction To Scratch",
-      description: "Adipisci iusto corporis molestiae ipsa maiores omnis laboriosam ab cupiditate ut in, dolorem nesciunt voluptate"
+      title: "Exploring Arduino Hardware and Software",
+      description: "Unleashing Creativity: An Exploration of Arduino's Potential"
+    }, {
+      id: "csn6",
+      title: "Programming the Arduino",
+      description: "Bridging the Gap between Code and Creativity: Arduino Programming Made Easy"
+    }, {
+      id: "scratchEvents6",
+      title: "Motors and Motor Driver",
+      description: "Rev Up Your Robotics Skills: A Guide to Motors and Motor Drivers"
+    }, {
+      id: "internet6",
+      title: "Sensors and Actuators",
+      description: "Sensing the World: A Journey into Robotics Sensors and Actuators"
+    }, {
+      id: "internet6",
+      title: "IR and Ultrasonic Sensors",
+      description: "Seeing the Unseen: A Guide to IR and Ultrasonic Sensors for Robotics"
+    }]
+  }, {
+    standard: "8",
+    title: "Introduction to IoT",
+    description: "This is an introductory course on Internet of Things (IoT). In this course you will learn how to implement the communication between smart phones and home appliances using wifi to control the home appliances. You will learn how to use Android device to wirelessly control electrical outlets using relay switches in order to prevent wastage of electricity. This course would be a foundation which will give you the required knowledge and confidence to build projects on your own and get your ideas implemented.",
+    learning_objectives: ["Understand the basic concepts of an IoT system, including its architecture and components", "Learn to establish communication with networks and systems", "Gain knowledge about electrical wiring and the use of relays as actuators to switch AC appliances on and off", "Understand the basics of visual programming and sketch the basic design for an app."],
+    learning_outcomes: ["Students will be able to establish communication between IoT networks and systems.", "Students will be able to wire AC appliances and control them using relays as actuators", "Students will be able to build a mobile app with an interface consisting of fields to enter IP addresses and buttons to switch appliances on and off"],
+    modules: [{
+      id: "identTech6",
+      title: "Unleashing the Power of IoT",
+      description: "A Beginner's Guide to Designing Block Diagrams"
+    }, {
+      id: "introScratch6",
+      title: "Mastering the Art of Control",
+      description: "A Guide to IoT Controller Programming"
+    }, {
+      id: "csn6",
+      title: "Connecting the Dots",
+      description: "A Guide to IoT Network Communication"
+    }, {
+      id: "scratchEvents6",
+      title: "Wiring Up Your IoT System",
+      description: "A Guide to Using Relays as Actuators"
+    }, {
+      id: "internet6",
+      title: "Visualizing Your IoT Dreams",
+      description: "A Guide to Visual Programming for IoT"
+    }, {
+      id: "internet6",
+      title: "Controlling Your World with IoT",
+      description: "A Guide to Building Mobile Apps for IoT Control"
+    }]
+  }, {
+    standard: "9",
+    title: "Physical computing using Raspberry pi",
+    description: "This course is designed to equip learners with the knowledge and skills to effectively use a range of hardware and software components to build practical projects. The course covers topics such as Raspberry Pi hardware and software, various sensors and actuators, RFID tags, and capacitive touch sensors. By the end of the course, learners will be able to independently plan, design, and build practical projects using their knowledge and skills acquired throughout the course. This course is ideal for anyone interested in learning about the exciting world of hardware and software, and how they can be used to solve real-world problems.",
+    learning_objectives: ["Understand the basics of Raspberry Pi hardware and software", "Learn how to use various sensors and actuators for different applications", "Acquire knowledge of RFID tags and how they can be used in different fields.", "Master the use of capacitive touch sensors and their applications", "Learn how to combine the different skills and components to create practical projects."],
+    learning_outcomes: ["Students will be able to confidently set up and operate Raspberry Pi hardware and software.", "Students will be able to identify and use different sensors and actuators according to their specific needs.", "Students will be able to design and implement RFID systems for various applications.", "Students will be able to effectively use capacitive touch sensors in their projects", "Students will be able to independently plan, design, and build practical projects using their knowledge and skills acquired in the course."],
+    modules: [{
+      id: "identTech6",
+      title: "Raspberry Pi: ",
+      description: "Unleashing the Power of Hardware and Software"
+    }, {
+      id: "introScratch6",
+      title: "Sensing the World",
+      description: "Discovering Motion, Gas, Moisture, and Temperature"
+    }, {
+      id: "csn6",
+      title: "Actuating Your Ideas",
+      description: "DC, Servo, Stepper Motors, and Relay"
+    }, {
+      id: "scratchEvents6",
+      title: "RFID Mastery",
+      description: "A Guide to Using Relays as Actuators"
+    }, {
+      id: "internet6",
+      title: "Touching the Future",
+      description: "Mastering Capacitive Touch Sensors"
+    }, {
+      id: "internet6",
+      title: "Building Blocks",
+      description: "Combining Your Skills to Create Practical Projects."
+    }]
+  }, {
+    standard: "10",
+    title: "Take to the Skies: Build Your Own Drone",
+    description: "This is a specialization course where students will design, build, and fly their own drone. They will apply the knowledge and skills they have learned throughout the curriculum to complete the project. The final module will cover real-world applications of drones, such as aerial photography, surveying, and inspection. Students will learn about different industries that use drones and how drones are being used to solve real-world problems.",
+    learning_objectives: ["Identify the different types of drones and their components.", "Understand the principles of flight and aerodynamics.", "Understand the basics of drone design, including the frame, propulsion system, control system, and sensors.", "Learn about the electronic components of a drone, including the flight controller, motors, and batteries.", "Learn how to control a drone using a remote control or a computer.", "Learn about real-world applications of drones, such as aerial photography, surveying, and inspection."],
+    learning_outcomes: ["Design a drone, including the frame, propulsion system, control system, and sensors, based on specific application requirements", "Install and wire electronic components of a drone, including the flight controller, motors, and batteries.", "Program a drone using a programming language such as Python or C++.", "Assemble a drone from scratch, including installation of components, wiring, and testing.", "Control a drone using a remote control or a computer and perform drone navigation and flight planning.", "Demonstrate an understanding of drone safety and regulations, including FAA regulations, safety guidelines, and best practices for safe drone operation."],
+    modules: [{
+      id: "identTech6",
+      title: "Introduction to Drones",
+      description: "This module will cover the history and evolution of drones, their applications, types of drones, and their components."
+    }, {
+      id: "introScratch6",
+      title: "Principles of Flight",
+      description: "Students will learn about the principles of flight, including lift, thrust, weight, and drag. They will also learn about aerodynamics, airfoils, and the physics of flight."
+    }, {
+      id: "csn6",
+      title: "Drone Design",
+      description: "This module will cover the basics of drone design, including the frame, propulsion system, control system, and sensors. Students will learn how to choose the right components based on their application."
+    }, {
+      id: "scratchEvents6",
+      title: "Electronics and Programming",
+      description: "Students will learn about the electronic components of a drone, including the flight controller, motors, and batteries. They will also learn how to program a drone using a programming language such as Python or C++."
+    }, {
+      id: "internet6",
+      title: "Sensors and Data Acquisition",
+      description: "In this module, students will learn about sensors used in drones, such as GPS, accelerometers, and gyroscopes. They will also learn how to acquire data from these sensors and process it for use in drone control."
+    }, {
+      id: "internet6",
+      title: "Drone Assembly",
+      description: "This module will cover the assembly of a drone from scratch, including the installation of components, wiring, and testing."
+    }, {
+      id: "internet6",
+      title: "Flight Control and Navigation",
+      description: "Students will learn how to control a drone using a remote control or a computer. They will also learn about drone navigation and flight planning."
+    }, {
+      id: "internet6",
+      title: "Safety and Regulations",
+      description: "In this module, students will learn about drone safety and regulations, including FAA regulations, safety guidelines, and best practices for safe drone operation."
     }]
   }]
 }];
@@ -42392,7 +42525,7 @@ var CourseIntroCard = function (_a) {
   return _react.default.createElement("div", {
     "data-testid": "CourseIntroCard",
     className: "CourseIntroCard"
-  }, _react.default.createElement("h3", null, syllabus === null || syllabus === void 0 ? void 0 : syllabus.title), _react.default.createElement("div", {
+  }, _react.default.createElement("h3", null, syllabus === null || syllabus === void 0 ? void 0 : syllabus.title), _react.default.createElement("p", null, syllabus === null || syllabus === void 0 ? void 0 : syllabus.description), _react.default.createElement("div", {
     className: "LearningObjectives"
   }, _react.default.createElement("h4", null, "Learning Objectives"), _react.default.createElement("ul", null, syllabus === null || syllabus === void 0 ? void 0 : syllabus.learning_objectives.map(function (item, index) {
     return _react.default.createElement("li", {
@@ -56029,7 +56162,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63043" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53921" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
