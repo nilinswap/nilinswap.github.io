@@ -106,9 +106,25 @@
   box-shadow: 20px 20px 30px rgb(0 0 0 / 5%);
   display: flex;
   flex-direction: column;
- 
-
 }
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.98);
+    box-shadow: 0 0 0 0 rgba(94, 43, 43, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 5px rgba(255, 82, 82, 0);
+  }
+
+  100% {
+    transform: scale(0.98);
+    box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+  }
+}
+
 .dummyForVariableSpace {
   flex-grow: 1;
 }
@@ -117,15 +133,17 @@
   padding: 10px 0;
   flex-grow: 1;
   display: flex;
-    flex-direction: column;
-    height: 100%;
+  flex-direction: column;
+  height: 100%;
 }
 
 .CourseLPCard img {
-  width: 100%; /* Set the width of the image to 100% */
-    height: 358px; 
-    object-fit: cover;
-    border-radius: 10px;
+  width: 100%;
+  /* Set the width of the image to 100% */
+  height: 358px;
+  object-fit: cover;
+  border-radius: 10px;
+
 }
 
 .buttons {
@@ -143,17 +161,23 @@
 }
 
 @media screen and (max-width: 600px) {
-  .CourseLPCard img{
+  .CourseLPCard img {
     height: unset;
   }
+
+  .CourseLPCard {
+    animation: pulse 2s infinite;
+  }
+
 }
 
 @media screen and (min-width: 600px) and (max-width: 1000px) {
-  .CourseLPCard{
+  .CourseLPCard {
     width: 100%;
+    animation: pulse 2s infinite;
+
   }
 }
-
 
 .ctaButton {
   padding: 15px 30px;
